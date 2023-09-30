@@ -1,0 +1,48 @@
+nav {
+  background-color: var(--black);
+  display: flex;
+  padding: 1rem 3rem;
+  overflow: hidden;
+  color: var(--white);
+  align-items: center;
+}
+
+div.start {
+  /* background-color: aquamarine; */
+  width: 100%;
+  display: flex;
+}
+
+div.end {
+  /* background-color: aqua; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+span.logo {
+  font-size: 1.5rem;
+  font-weight: var(--xbd);
+  margin-right: auto;
+  cursor: pointer;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+nav ul li a {
+  color: var(--white);
+  font-weight: var(--md);
+  text-decoration: none;
+  padding: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+div.buttons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}

@@ -7,7 +7,25 @@
   font-family: "Poppins", sans-serif;
 }
 
+:root {
+  /* colors */
+  --black: #161616;
+  --black-lt: #201f20;
+  --white: #fff;
+  --gray: #f6f6f6;
+  --yellow: #ffce2e;
+  --crimson: #f9403e;
+
+  /* font weights */
+  --lt: 100;
+  --md: 300;
+  --rg: 500;
+  --bd: 700;
+  --xbd: 900;
+}
+
 body {
+  background-color: var(--black-lt);
   overscroll-behavior: none;
   scroll-behavior: smooth;
 }
