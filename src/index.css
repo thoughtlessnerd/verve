@@ -3,8 +3,10 @@
 * {
   margin: 0;
   padding: 0;
+  overflow: hidden;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  user-select: none;
 }
 
 :root {
@@ -12,7 +14,7 @@
   --black: #161616;
   --black-lt: #201f20;
   --white: #fff;
-  --gray: #f6f6f6;
+  --gray: #383638;
   --yellow: #ffce2e;
   --crimson: #f9403e;
 
@@ -22,6 +24,8 @@
   --rg: 500;
   --bd: 700;
   --xbd: 900;
+
+  min-height: 200vh;
 }
 
 body {

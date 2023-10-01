@@ -1,0 +1,70 @@
+section.articleSection {
+  display: flex;
+  position: relative;
+  margin-top: 5rem;
+  width: 100%;
+  height: 70vh;
+  min-height: 60vh;
+  overflow: visible;
+  justify-content: space-evenly;
+}
+
+section.articleSection header {
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--black-lt);
+  padding: 3rem;
+  font-size: 3rem;
+  font-weight: var(--md);
+  color: var(--white);
+}
+
+.line-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  /* background-color: aqua; */
+}
+
+.line-box .line {
+  background-color: var(--gray);
+  transform-origin: top left;
+}
+
+.line-box .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  border-radius: 50px;
+  border: 2px solid var(--gray);
+  writing-mode: vertical-lr;
+  text-orientation: sideways-right;
+  white-space: nowrap;
+  font-weight: var(--md);
+}
+
+section.articleSection article {
+  width: 20%;
+  /* background-color: red; */
+  text-align: justify;
+  color: var(--white);
+}
+
+section.articleSection article h1 {
+  font-size: 1.4rem;
+  font-weight: var(--md);
+}
+
+section.articleSection article p {
+  font-size: 1rem;
+  font-weight: var(--lt);
+  line-height: 1.2rem;
+  margin-top: 1rem;
+}

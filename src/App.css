@@ -1,0 +1,20 @@
+section.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.liquidImg {
+  width: 50%;
+}
+
+.effectText {
+  position: absolute;
+  font-size: 15rem;
+  color: transparent;
+  -webkit-text-stroke: 2px;
+  -webkit-text-stroke-color: var(--white);
+  opacity: 0.8;
+  text-transform: uppercase;
+  width: max-content;
+}

@@ -4,7 +4,7 @@ import "../styles/Nav.css";
 
 function Nav(props) {
   return (
-    <nav>
+    <nav style={props.style}>
       <div className="start">
         <span className="logo">ThoughtlessNerd</span>
       </div>
