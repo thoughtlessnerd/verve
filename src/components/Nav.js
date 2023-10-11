@@ -6,7 +6,7 @@ function Nav(props) {
   return (
     <nav style={props.style}>
       <div className="start">
-        <span className="logo">ThoughtlessNerd</span>
+        <span className="logo">Verve</span>
       </div>
       <div className="end">
         <ul className="links">

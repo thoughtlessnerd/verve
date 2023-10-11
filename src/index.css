@@ -5,7 +5,6 @@
   padding: 0;
   overflow: hidden;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
   user-select: none;
 }
 
@@ -29,6 +28,7 @@
 }
 
 body {
+  font-family: "Poppins", sans-serif;
   background-color: var(--black-lt);
   overscroll-behavior: none;
   scroll-behavior: smooth;

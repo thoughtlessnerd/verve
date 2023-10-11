@@ -21,9 +21,9 @@ function LineBox(props) {
         scrollTrigger: {
           trigger: element.querySelector(".line"),
           start: "top center",
-          end: "bottom center",
-          // scrub: true,
-          markers: true,
+          end: "bottom 20%",
+          scrub: true,
+          // markers: true,
         },
       }
     );
