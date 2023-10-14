@@ -20,7 +20,7 @@ function Nav(props) {
             <a href="#">Programs</a>
           </li>
           <li>
-            <a href="#">Work</a>
+            <a href="#/Work">Work</a>
           </li>
           <li>
             <a href="#">Media</a>
