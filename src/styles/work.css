@@ -1,14 +1,15 @@
+.work-page {
+  display: flex;
+  flex-direction: column;
+  gap: 15rem;
+}
+
 section.first {
   padding: 0rem 15rem;
   width: 100%;
   /* display: flex; */
   gap: 5rem;
   min-height: 400vh;
-}
-
-section.second {
-  min-height: 200vh;
-  /* background-color: hotpink; */
 }
 
 section.first div.strip {
@@ -68,4 +69,84 @@ section.first div.imgStrip img {
 
 section.first div.strip img:hover {
   filter: grayscale(0);
+}
+
+section.second {
+  /* min-height: 200vh; */
+  position: relative;
+  width: max-content;
+  aspect-ratio: 1/1.78;
+  /* background: linear-gradient(to bottom, #000, #fff); */
+}
+
+section.second div.slides {
+  position: sticky;
+  top: 0;
+  /* background-color: rebeccapurple; */
+  padding: 0rem 15rem;
+  display: flex;
+  gap: 5rem;
+  height: 50vh;
+  transform: rotateZ(-3deg);
+}
+
+section.second div.slides h1 {
+  /* background-color: aqua; */
+  position: sticky;
+  top: 0%;
+  left: 50%;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  transform: translateX(-50%);
+  text-align: center;
+  color: var(--white);
+  font-weight: var(--lt);
+  font-size: 3rem;
+}
+
+section.second div.slides div.slider {
+  position: relative;
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  gap: 5rem;
+}
+
+section.second div.slides div.slider img {
+  height: 100%;
+  aspect-ratio: 2.35/1;
+  object-fit: cover;
+  filter: grayscale(1);
+  transition: 0.3s ease-in-out;
+  transform: translateY(50%);
+}
+
+section.second div.slides div.slider img:hover {
+  filter: grayscale(0);
+}
+
+section.second h1.title {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: max-content;
+  pointer-events: none;
+  stroke-width: 2px;
+  transform: rotateZ(3deg) translate(-30%, -100%);
+  -webkit-text-stroke: var(--gray);
+  -webkit-text-stroke-width: 2px;
+  color: transparent;
+  font-size: 15rem;
+  /* white-space: nowrap; */
+}
+
+section.second h1.title:first-child {
+  transform: rotateZ(3deg) translate(-70%, 90%);
+}
+
+section.third {
+  min-height: 100vh;
+  background-color: yellowgreen;
 }
